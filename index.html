@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilal's Cloud DevOps Dashboard</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        header {
+            background: #0f172a;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #cbd5e1;
+        }
+
+        .welcome {
+            text-align: center;
+            padding: 35px 15px;
+        }
+
+        .welcome h2 {
+            font-size: 32px;
+            color: #2563eb;
+            margin-bottom: 12px;
+        }
+
+        .welcome p {
+            font-size: 17px;
+            color: #64748b;
+        }
+
+        .container {
+            padding: 20px 30px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .container h2 {
+            margin-bottom: 20px;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #64748b;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .green {
+            color: #16a34a;
+        }
+
+        .blue {
+            color: #2563eb;
+        }
+
+        .project-info {
+            margin-top: 35px;
+        }
+
+        .project-info .card p {
+            font-size: 16px;
+            margin: 15px 0;
+            font-weight: normal;
+        }
+
+        footer {
+            background: #0f172a;
+            color: #cbd5e1;
+            text-align: center;
+            padding: 22px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 23px;
+            }
+
+            .welcome h2 {
+                font-size: 25px;
+            }
+
+            .container {
+                padding: 20px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>☁️ Bilal's Cloud DevOps Dashboard</h1>
+        <p>My New Cloud DevOps Project</p>
+    </header>
+
+    <section class="welcome">
+        <h2>🎉 Welcome to My New Project!</h2>
+        <p>Hello, I'm Bilal. Welcome to my Cloud DevOps project dashboard.</p>
+        <p>Built with passion for Cloud Computing, Docker, AWS, and CI/CD.</p>
+    </section>
+
+    <main class="container">
+
+        <h2>📊 Project Dashboard</h2>
+
+        <div class="dashboard">
+
+            <div class="card">
+                <h3>☁️ Cloud Provider</h3>
+                <p class="blue">AWS</p>
+            </div>
+
+            <div class="card">
+                <h3>🐳 Container Platform</h3>
+                <p class="blue">Docker</p>
+            </div>
+
+            <div class="card">
+                <h3>⚙️ CI/CD Pipeline</h3>
+                <p class="green">Ready</p>
+            </div>
+
+            <div class="card">
+                <h3>🚀 Project Status</h3>
+                <p class="green">Started</p>
+            </div>
+
+        </div>
+
+        <section class="project-info">
+
+            <h2>🚀 Project Information</h2>
+
+            <div class="card">
+                <p><strong>Project Name:</strong> My New Cloud DevOps Project</p>
+                <p><strong>Developer:</strong> Bilal</p>
+                <p><strong>Cloud Provider:</strong> Amazon Web Services (AWS)</p>
+                <p><strong>Infrastructure as Code:</strong> Terraform</p>
+                <p><strong>Containerization:</strong> Docker</p>
+                <p><strong>CI/CD Automation:</strong> GitHub Actions</p>
+                <p><strong>Deployment Status:</strong> <span class="green">In Progress</span></p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Bilal | My Cloud DevOps Journey 🚀</p>
+        <p style="margin-top: 8px;">Learn • Build • Deploy • Automate</p>
+    </footer>
+
+</body>
+</html>
